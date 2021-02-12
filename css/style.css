@@ -1,0 +1,28 @@
+:root {
+  --light: azure;
+}
+
+
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+}
+
+/* Header*/
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: var(--light);
+  background: #9E1212;
+}
+
+/* Figure */
+
+/* Article About Me */
+
+/* Main Work */
+
+/* Footer Contact Me */
+
