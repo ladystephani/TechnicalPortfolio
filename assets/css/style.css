@@ -1,28 +1,103 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 :root {
   --light: azure;
 }
 
-
-
+/***********
+  General 
+***********/
 body {
-  font-size: 24px;
+  background-color: #d9dcd6;
+  /* font-size: 24px;
   line-height: 32px;
-  color: #333;
+  color: #333; */
 }
 
-/* Header*/
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+/********* 
+  Header 
+**********/
 header {
   padding: 20px;
-  margin-bottom: 20px;
-  color: var(--light);
-  background: #9E1212;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #8ac4ff;
+  color: #ffffff;
 }
 
-/* Figure */
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+/******************/
+
+/* Nav */
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+/******************/
 
 /* Article About Me */
+article {
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+}
+
+article .float-left {
+  float: left;
+  max-height: 200px;
+  margin-left: 100px;
+}
+
+article .float-right {
+  float: left;
+  margin-left: 100px;
+}
 
 /* Main Work */
-
+main section {
+  display: flex;
+  flex-wrap: wrap;
+}
 /* Footer Contact Me */
+footer {
 
+}
+
+@media screen and (max-width: 992px) {
+  .project {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    width: 100%;
+  }
+}
