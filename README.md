@@ -1,6 +1,6 @@
 # Assignment2-Portfolio
 
-Go to the Deployed Web Application Here:<div style="display: inline">https://ladystephani.github.io/Assignment2-Portfolio/</div>
+Go to the Deployed Web Application Here:<div style="display: inline">https://ladystephani.github.io/TechnicalPortfolio/</div>
 
 ## Description
 This assignment's topic is a personal web page portfolio for Columbia Engineering's coding bootcamp.
