@@ -1,8 +1,32 @@
-/* * {
-  box-sizing: border-box;
-  padding: 0;
+* {
   margin: 0;
-} */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+input, select, option, optgroup, textarea, button,
+pre, code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+ol, ul {
+  list-style: none;
+}
 
 :root {
   --light: azure;
@@ -35,6 +59,7 @@ header {
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #8ac4ff;
   color: #ffffff;
+  display: block;
 }
 
 header h1 {
@@ -47,16 +72,9 @@ header h1 {
 
 /* Nav */
 header nav {
-  /* float: right;
-  clear: right; */
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 20px;
   padding-top: 0;
-  margin-right: 20px;
-}
-
-header nav ul {
-  list-style-type: none;
 }
 
 header nav ul li {
@@ -68,7 +86,7 @@ header nav ul li {
 /* Article About Me */
 #about-me {
   display: flex;
-  justify-content: center;/* used in assignment 4 and it works here! */
+  justify-content: center;
 
 }
 .about-me,
@@ -81,37 +99,11 @@ article h2 {
   text-align: center;
 }
 
-
-.container {
-  
-  /* margin-left: 50px; */
-  float: left;
-}
-
 img {
   margin: 10px;
-
-}
-
-#clear-float {
-  clear: both;
-}
-/* img,
-#float-right {
-  float: left;
-  clear: left;
-} */
-
-img {
   width: 100%;
   height: 500px;
   padding: 5px;
-}
-
-#float-right {
-  text-align: center;
-  margin: 0 auto;
-  width: 600px;
 }
 
 /* .p1,
