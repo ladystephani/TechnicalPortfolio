@@ -1,15 +1,14 @@
-# Assignment2-Portfolio
+# Technical Portfolio
 
 Go to the Deployed Web Application Here:<div style="display: inline">https://ladystephani.github.io/TechnicalPortfolio/</div>
 
 ## Description
-This assignment's topic is a personal web page portfolio for Columbia Engineering's coding bootcamp.
-Original files in the repository include: the HTML file, the CSS styling file, the profile photo and screenshot. 
+This assignment's topic is a personal web page portfolio created and updated throughout my experience at Columbia Engineering Online Coding Bootcamp. The technologies used include HTML, CSS and Bootstrap.
 
-In this web page, you will learn about the author - myself - and projects and contact information. The navigation links can be found at the top, followed by the personal introduction and the main project content. Contact info links are at the bottom.
+In this web page, you will learn about the author - myself - and projects and contact information. 
 
 ## Screenshot View
-![Here's a Screenshot Overview of the Web Application](assets/images/01-html-css-git-homework-demo.png)
+![Here's a Screenshot Overview of the Web Application](assets/images/portfolio-appearance.png)
 
 ## Credit
 HTML and CSS tutorials used courtesy of:*[w3schools](https://www.w3schools.com/)
